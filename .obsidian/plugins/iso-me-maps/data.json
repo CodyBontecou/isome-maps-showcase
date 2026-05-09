@@ -1,0 +1,23 @@
+{
+  "tileProvider": "esri-world-imagery",
+  "tileUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  "tileAttribution": "Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+  "exportsFolder": "Exports",
+  "exportFilenamePattern": "*{date}*",
+  "exportDateFormat": "YYYY-MM-DD",
+  "defaultHeight": 400,
+  "defaultCenter": [
+    0,
+    0
+  ],
+  "defaultZoom": 11,
+  "markerColor": "#2dd4bf",
+  "routeColor": "#2563eb",
+  "outlierColor": "#f59e0b",
+  "heatRadius": 25,
+  "heatBlur": 15,
+  "showVisitsByDefault": true,
+  "showRoutesByDefault": true,
+  "showHeatmapByDefault": false,
+  "showOutliersByDefault": false
+}
